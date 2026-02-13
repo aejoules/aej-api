@@ -29,7 +29,7 @@
             const resultDiv = document.getElementById('result');
             resultDiv.innerText = "Calcul en cours...";
             
-            const response = await fetch('https://aej-api.onrender.com/certify', {
+            const response = await fetch('https://aej-api-1.onrender.com/certify', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json', 'X-API-KEY': 'SLIM_ADMIN_2026' },
                 body: JSON.stringify({
@@ -44,4 +44,5 @@
         }
     </script>
 </body>
+
 </html>
